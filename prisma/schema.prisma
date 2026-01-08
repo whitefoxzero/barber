@@ -3,7 +3,7 @@ generator client {
 }
 
 datasource db {
-  provider = "mongo"
+  provider = "mongodb"
   url      = env("DATABASE_URL")
 }
 
